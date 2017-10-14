@@ -71,8 +71,12 @@
 .font__image{
     color: #ffffff;
     text-shadow: 0px 0px 10px black;
+    text-align: center;
 }
 
+div p {
+    color:red;
+}
 .logo {
     &__brand:before {
         background-image: url("./Logos/brand.png");

@@ -17,6 +17,7 @@ export class GalleryItem extends React.Component {
                         <div className="panel-body">
                             {this.props.children}
                         </div>
+                        
                     </div>
                 </div>
             </Portal>

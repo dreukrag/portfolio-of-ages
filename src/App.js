@@ -11,13 +11,10 @@ class App extends Component {
     return (
       <div className="Main">
         <Header />
-
-        <div className="container-fluid">
-          <HomeSection />
-          <WorkExperienceSection />
-          <KnoweledgeSection />
-          <ContactSection />
-        </div>
+        <HomeSection />
+        <WorkExperienceSection />
+        <KnoweledgeSection />
+        <ContactSection />
       </div>
     );
   }

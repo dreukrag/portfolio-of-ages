@@ -1,0 +1,28 @@
+{
+    "cars": [
+        {
+            "carModel": "xc90",
+            "brand": "volvo"
+        },
+        {
+            "carModel": "xc90",
+            "brand": "volvo"
+        },
+        {
+            "carModel": "punto",
+            "brand": "fiat"
+        },
+        {
+            "carModel": "uno",
+            "brand": "fiat"
+        },
+        {
+            "carModel": "a3",
+            "brand": "audi"
+        },
+        {
+            "carModel": "a4",
+            "brand": "audi"
+        }
+    ]
+}
