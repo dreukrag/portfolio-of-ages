@@ -3,7 +3,7 @@ import {GalleryItem, GalleryThumbnail} from '../Gallery';
 
 export class WorkExperienceSection extends React.Component {
     render = () => (
-        <div className="col-xs-10 content-container GalleryThumb__container">
+        <div className="col-xs-10 content-container GalleryThumb__container" style={{display:'none'}}>
                 <GalleryThumbnail empresa="Medgrupo" logo={"logo__medgrupo"} periodo="  2016 / 2  " cargo="Desenvolvedor Front-End">
                     <p>Membro do time de desenvolvimento do aplicativo medsoft para mobile.</p>
                     <p>Membro do time de desenvolvimento das apostilas para o aplicativo mobile.</p>

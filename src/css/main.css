@@ -1,75 +1,73 @@
-.btn .no-border {
-  border: none; }
-
-.edged-corner__top-right {
-  background: #c00;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background: linear-gradient(225deg, transparent 10px, #c00 0) top right; }
-
-.edged-corner__top-left {
-  background: #c00;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background: linear-gradient(135deg, transparent 10px, #c00 0) top left; }
-
-.edged-corner__bottom-left {
-  background: #c00;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background: linear-gradient(45deg, transparent 10px, #c00 0) bottom left; }
-
-.header-container {
-  max-width: 25vw;
-  height: 35px;
-  min-width: max-content;
+.header {
+  height: 40px;
   width: 100%;
-  padding: 5px 30px 0px 10px;
-  color: white;
+  padding: 5px;
+  background-color: #222;
+  color: whitesmoke;
   position: absolute;
-  top: 0;
-  z-index: 0; }
-  .header-container__background-deco {
-    max-width: 230px;
-    width: 100%;
-    z-index: 1;
-    padding: 10px;
-    margin-top: 25px;
-    background: orange;
+  top: 0; }
+  .header__text {
+    margin: 5px; }
+  .header button {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    float: right;
+    border: 1px solid #111;
+    background-color: #333;
+    color: white; }
+  .header button.link {
+    height: 30px;
+    width: fit-content;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+    float: none;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: white; }
+
+header {
+  margin-bottom: 40px; }
+
+.Main {
+  background-color: lightgray; }
+
+.home-container {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 5%;
+  padding: 5px;
+  background: darkgray;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background: linear-gradient(45deg, transparent 10px, darkgray 0) bottom left; }
+
+.home-img {
+  object-fit: cover;
+  width: 128px;
+  height: 128px;
+  border-radius: 25% 5% 5% 40%;
+  float: left;
+  transform: translateX(-20px) translateY(-20px); }
+  .home-img:before {
+    background: darkgray;
     background-size: 50% 50%;
     background-repeat: no-repeat;
-    background: -webkit-linear-gradient(135deg, transparent 10px, orange 0) bottom right;
-    background: -o-linear-gradient(135deg, transparent 10px, orange 0) bottom right;
-    background: linear-gradient(315deg, transparent 5px, orange 0) bottom right; }
-  .header-container__background-line {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-    padding: 10px;
-    margin-top: 25px;
-    background: whitesmoke; }
+    background: linear-gradient(45deg, transparent 10px, darkgray 0) bottom left; }
 
-.side-bar__main {
-  height: 230px;
-  width: 50px;
-  padding: 5px;
-  background: whitesmoke;
-  background-size: 50% 50%;
+.home-img-div {
+  width: 131px;
+  height: 162px;
+  background-image: url("/static/media/Filipe.23bb6128.jpg");
   background-repeat: no-repeat;
-  background: linear-gradient(315deg, transparent 10px, whitesmoke 0) bottom right; }
-  .side-bar__main button {
-    width: 40px;
-    height: 40px;
-    margin: 0px; }
-  .side-bar__main-deco {
-    height: 100%;
-    width: 25px;
-    background: gainsboro;
-    position: relative;
-    z-index: -1;
-    background: linear-gradient(45deg, transparent 10px, gainsboro 0) bottom left, linear-gradient(315deg, transparent 10px, gainsboro 0) bottom right; }
-
-.content-container {
-  padding: 25px 0px 0px 25px;
-  float: right; }
+  background-size: contain;
+  transform: translateX(-20px) translateY(-20px); }
+  .home-img-div::before {
+    content: "";
+    display: block;
+    height: 102%;
+    width: 101%;
+    margin: -1px;
+    background: linear-gradient(135deg, lightgrey 25px, transparent 0) top left, linear-gradient(180deg, lightgrey 10px, transparent 0) top right, linear-gradient(315deg, darkgrey 25px, transparent 0) bottom left, linear-gradient(45deg, lightgrey 10px, transparent 0) bottom right; }
