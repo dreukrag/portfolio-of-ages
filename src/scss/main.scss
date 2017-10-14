@@ -24,6 +24,10 @@
         left: 50%;
         top: 10px;
         transform: translateX(-50%);
+
+        @media screen and (min-width:600px) {
+            top:-20%;
+        }
     }
     &__buttons-selector{
         width: 20vw;
@@ -34,6 +38,10 @@
         background-color: #333;
         color:white;
         font-size: 10vw;
+
+        font-size: 200%;
+        max-width: 64px;
+        max-height: 64px;
     }
 
     button.link{
@@ -183,5 +191,6 @@ header{
     color: whitesmoke;
     width: 100%;
     padding: 5px;
+    margin-top:25px;
 }
 }
